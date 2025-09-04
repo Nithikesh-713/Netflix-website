@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS basics</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <img src="logo.png" class="logo">
+            <div>
+                <button class="language-btn">English<img src="down-icon.png"></button>
+                <button>Sign In</button>
+            </div>
+        </nav>
+        <div class="header-content">
+            <h1>Unlimited movies, TV shows and more.</h1>
+            <h3>Watch anywhere. Cancel anytime.</h3>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <form class="email-signup">
+                <input type="email" placeholder="Email address" required>
+                <button type="submit">Get Started</button>
+            </form>
+        </div>
+    </div>
+    <div class="features">
+        <div class="row">
+            <div class="text-col">
+                <h2>Enjoy on your TV.</h2>
+                <p>Watch on smart TVs, playstation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+            </div>
+            <div class="img-col">
+                <img src="feature-1.png">
+            </div>
+        </div>
+
+         <div class="row">
+            <div class="img-col">
+                <img src="feature-2.png">
+            </div>
+            <div class="text-col">
+                <h2>Download your shows to watch offline</h2>
+                <p>Save your favorites easily and always have something to watch</p>
+            </div>
+        </div>
+
+         <div class="row">
+            <div class="text-col">
+                <h2>Watch everywhere</h2>
+                <p>Stream unlimited movies and TV shows on your phone,tablet,laptop, and TV</p>
+            </div>
+            <div class="img-col">
+                <img src="feature-3.png">
+            </div>
+        </div>
+
+         <div class="row">
+            <div class="img-col">
+                <img src="feature-4.png">
+            </div>
+            <div class="text-col">
+                <h2>Create profiles for children</h2>
+                <p>Send children on adventure with their favourites characters in a space made just for them-free with your membership</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="faq">
+        <h2>frequently Asked Questions</h2>
+        <ul class="accordion">
+            <li>
+                <input type="radio" name="accordian" id="first">
+                <label for="first">What is Netfilx?</label>
+                <div class="content">
+                    <p>Netfilx is an American subscription video on-demand over-the-top streaming service.The service primarily distributes original and acquired films and television shows from various genres, and it is available internationally in multiple languages</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordian" id="second">
+                <label for="second">How much does netfilx cost in india</label>
+                <div class="content">
+                    <p>Starting from Rs 149 and going upto Rs 649 per month,each plan provides access to Netfilx's extensive library of original TV shows and movies.Netfilx india provides four subscription tiers:Mobile,Basic,Standard, and Premium.</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordian" id="third">
+                <label for="third">Which technologies is used?</label>
+                <div class="content">
+                    <p>For its web application,it uses React.Frontend/server communication:GraphQL.Backend services:Netfilx relies on ZUUL,Eureka,Spring Boot framework and other technologies.Databases:Netfilx utilizes EV cache,Cassandra,CockroachDB and other databases.</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordian" id="fourth">
+                <label for="fourth">Netfilx logo design founder name?</label>
+                <div class="content">
+                    <p>The company's founders are Marc Randolph and Reed Hastings.The debut logo is characterized by some "disarray".Visually ,it is divided into several fragments.</p>
+                </div>
+            </li>
+             <li>
+                <input type="radio" name="accordian" id="fifth">
+                <label for="fifth">Is netfilx good for kids</label>
+                <div class="content">
+                    <p>Netfilx can be fun and valuable educational tool for children,offering a wide range of engaging,informative and entertaining content that aids in learning and development.</p>
+                </div>
+            </li>
+             <li>
+                <input type="radio" name="accordian" id="sixth">
+                <label for="sixth">Which programming language?</label>
+                <div class="content">
+                    <p>Java,Go,Scala,Ruby,Javascript OSA</p>
+                </div>
+            </li>
+        </ul>
+        <small>Ready to watch? Enter your email to create or restart your membership</small>
+        <form class="email-signup">
+            <input type="email" placeholder="Email address" required>
+            <button type="submit">Get Started</button>
+        </form>
+    </div>
+
+    <div class="footer">
+        <h2>Questions? call 000-000-000-000</h2>
+
+        <div class="row">
+            <div class="col">
+                <a href="#">FAQ</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Privacy</a>
+                <a href="#">Speed Test</a>
+            </div>
+            <div class="col">
+                <a href="#">Help</a>
+                <a href="#">Jobs</a>
+                <a href="#">Cookies Preferences</a>
+                <a href="#">Legal Notices</a>
+            </div>
+            <div class="col">
+                <a href="#">Account</a>
+                <a href="#">Ways to watch</a>
+                <a href="#">Coperate Information</a>
+                <a href="#">Only on Netfilx</a>
+            </div>
+            <div class="col">
+                <a href="#">Media Centre</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+        <button class="language-btn">English<img src="down-icon.png"></button>
+        <p class="copyright-txt">Netfilx india</p>
+    </div>
+</body>
+</html>
